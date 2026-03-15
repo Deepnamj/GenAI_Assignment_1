@@ -62,8 +62,7 @@ The notebook format allows running code **cell by cell** and viewing outputs dir
 
 or
 
-   ```bash
-  jupyter notebook
+  jupyter lab
 
 4.In the browser window that opens, click on assignment.ipynb to open the notebook.
 
