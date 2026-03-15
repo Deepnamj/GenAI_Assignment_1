@@ -1,8 +1,12 @@
 Assignment 1 - Data Structure(Lists & Tuples, Sets, Dictionaries, Operations)
 # Python Data Structures Assignment
 
+# Python Data Structures Assignment (Jupyter Notebook)
+
 ## Overview
-This assignment demonstrates the use of **Python lists, tuples, sets, and dictionaries** through four tasks. Each task builds on the previous one to show dynamic handling of products, prices, and categories.
+This assignment demonstrates the use of **Python lists, tuples, sets, and dictionaries** through four tasks. Each task builds on the previous one to show dynamic handling of products, prices, and categories.  
+
+The notebook format allows running code **cell by cell** and viewing outputs directly below the code.
 
 ---
 
@@ -13,6 +17,7 @@ This assignment demonstrates the use of **Python lists, tuples, sets, and dictio
 - Create a **tuple** for a sample product `(product_name, price, category)`.
 - Access and print the 2nd and last product.
 - Append new products to the list.
+- **Extra:** Convert tuple to list, update price, and convert back to tuple.
 - **Key concepts:** list indexing, list append, tuple immutability, type conversion between tuple and list.
 
 ---
@@ -22,7 +27,7 @@ This assignment demonstrates the use of **Python lists, tuples, sets, and dictio
 - Add new categories (demonstrates that duplicates are ignored).
 - Check if a category exists in the set.
 - Count the total number of unique categories.
-- **Key concepts:** set creation, uniqueness property, membership checking, adding elements.
+- **Key concepts:** set creation, uniqueness, membership checking, adding elements.
 
 ---
 
@@ -44,9 +49,26 @@ This assignment demonstrates the use of **Python lists, tuples, sets, and dictio
 ---
 
 ## How to Run
-1. Make sure you have **Python 3.x** installed.
-2. Save the script as `assignment.py`.
-3. Open a terminal/command prompt and navigate to the folder containing the file.
-4. Run the script using:
+
+1. Make sure you have **Python 3.x** and **Jupyter Notebook** or **Jupyter Lab** installed. You can install it via:
+
    ```bash
-   python assignment.py
+   pip install notebook
+   
+2.Save the notebook file as assignment.ipynb.
+
+3.Open a terminal/command prompt, navigate to the folder containing the notebook, and start Jupyter:
+  ```bash
+  jupyter notebook
+
+or
+   ```bash
+  jupyter lab
+
+4.In the browser window that opens, click on assignment.ipynb to open the notebook.
+
+5.Run the notebook cells sequentially by:
+   Clicking Run in the toolbar for each cell, or
+   Pressing Shift + Enter to execute a cell and move to the next.
+
+6.All outputs for Tasks 1–4 will appear directly below each cell.   
