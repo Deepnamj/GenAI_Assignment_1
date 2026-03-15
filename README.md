@@ -61,6 +61,7 @@ The notebook format allows running code **cell by cell** and viewing outputs dir
   jupyter notebook
 
 or
+
   ```bash
   jupyter lab
 
