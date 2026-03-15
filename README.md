@@ -1,8 +1,6 @@
 Assignment 1 - Data Structure(Lists & Tuples, Sets, Dictionaries, Operations)
 # Python Data Structures Assignment
 
-# Python Data Structures Assignment (Jupyter Notebook)
-
 ## Overview
 This assignment demonstrates the use of **Python lists, tuples, sets, and dictionaries** through four tasks. Each task builds on the previous one to show dynamic handling of products, prices, and categories.  
 
@@ -58,11 +56,12 @@ The notebook format allows running code **cell by cell** and viewing outputs dir
 2.Save the notebook file as assignment.ipynb.
 
 3.Open a terminal/command prompt, navigate to the folder containing the notebook, and start Jupyter:
+
   ```bash
   jupyter notebook
 
 or
-   ```bash
+  ```bash
   jupyter lab
 
 4.In the browser window that opens, click on assignment.ipynb to open the notebook.
